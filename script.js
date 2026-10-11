@@ -42,7 +42,7 @@ window.addEventListener('DOMContentLoaded',()=>{
 document.getElementById('emailBtn').addEventListener('click',e=>{e.preventDefault();window.location.href='mai'+'lto:'+em();});
 document.getElementById('footerEmail').addEventListener('click',e=>{e.preventDefault();window.location.href='mai'+'lto:'+em();});
 
-const phrases=['BCA Student','Full-Stack Developer','MERN & PHP Developer','AI Explorer'];
+const phrases=['BCA Student','Full-Stack Developer','Web Developer','AI Explorer'];
 let pi=0,ci=0,del=false;
 const tel=document.getElementById('typed');
 function type(){
